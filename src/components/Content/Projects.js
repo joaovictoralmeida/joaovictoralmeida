@@ -3,6 +3,7 @@ import Cards from "./Cards";
 import SecButton from "./SecButton";
 import Login from "../../../public/images/Login.png"
 import Tech from "../../../public/images/TechBlog.png"
+import Natal from "../../../public/images/Natal.png"
 
 export default function Projects() {
     return (
@@ -38,12 +39,12 @@ export default function Projects() {
 
                         <div className="flex flex-col">
                             <Cards
-                            title="Nome do Projeto"
-                            tech="Tecnologias usadas no projeto"
+                            title="Feliz Natal"
+                            tech="React, Javascript"
                             />
                             <div className="flex">
-                                <Buttons title="Acessar projeto" />
-                                <SecButton title="Acessar repositório"/>
+                                <Buttons title="Acessar projeto" link="https://github.com/joaovictoralmeida/Feliz_Natal" />
+                                <SecButton title="Acessar repositório" link="https://github.com/joaovictoralmeida/Feliz_Natal"/>
                             </div>
                         </div>
 
