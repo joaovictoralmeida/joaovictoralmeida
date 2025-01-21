@@ -13,7 +13,7 @@ export default function About() {
                 <h1 className="text-3xl text-[#BF91F9] font-chabul md:text-xl">Sobre mim</h1>
                 <p className="text-xl font-medium md:text-lg">Brasília, Brasil</p>
                 <p className="text-xl md:text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..
+                  Olá, sou o João Victor Almeida, estudante de Análise e Desenvolvimento de Sistemas, com conhecimetos em HTML/CSS e Javascript. Atualmente desenvolvendo sites responsivos com <span className="text-[#BF91F9]">NextJS</span>
                 </p>
 
                 <div className="flex gap-5">
