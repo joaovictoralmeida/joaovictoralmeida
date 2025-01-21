@@ -1,35 +1,27 @@
 import Image from "next/image"
-import Arrow from "../../../public/images/arrow.png"
+import Me from "../../../public/images/me.png"
+import Buttons from "../Content/Buttons"
 
 export default function Content() {
     return (
-        <div className="flex justify-center w-screen bg-[#0B0B0B]">
-            <div className="relative flex font-inter w-[1216px]">
-                <div id="inicio" className="flex flex-col justify-center text-white w-[1216px]">
-                    <p className="font-medium text-2xl m-3">Olá, eu sou</p>
-                    <h1 className="text-[#BF91F9] text-4xl m-3 font-chabul">João Victor Almeida</h1>
-                    <p className="font-medium text-2xl m-3">Desenvolvedor Frontend</p>
-                    <button className="bg-[#BF91F9] text-black w-36 rounded-sm py-2 px-10 m-3">Linkedin</button>
-                </div>
-                <div>
-                    <p className="absolute top-20 left-[450px] text-[#BF91F9] font-chabul">Apaixonado por café</p>
-                    <div className="absolute top-16 left-[320px]">
-                        <div>
-                            <Image
-                            alt="Arrow"
-                            src={Arrow}
-                            style={ {
-                                width: 140,
-                                height: 80,
-                            }
-                            }
-                            />
-                        </div>
+        <div className="flex flex-col items-center bg-[#0B0B0B] font-inter text-white">
+            <div id="inicio" className="flex justify-center w-[1216px] mac:w-11/12 py-20">
+                <div className="flex flex-row w-full justify-between items-center md:justify-center">
+                    <div className="flex flex-col gap-10 md:items-center">
+                        <p className="text-2xl font-medium md:text-lg">Olá, eu sou</p>
+                        <h1 className="font-chabul text-5xl text-[#BF91F9] md:text-xl">João Victor Almeida</h1>
+                        <p className="text-2xl font-medium md:text-lg">Desenvolvedor Frontend</p>
+                        <Buttons
+                        title="Linkedin"
+                        />
                     </div>
-            
-                </div>
-                <div>
-                    <img className="mb-10" src="/images/me.png"/>
+                    <div className="md:hidden">
+                        <Image
+                        src={Me}
+                        alt="Me"
+                        width={300}
+                        />
+                    </div>
                 </div>
             </div>
         </div>

@@ -9,17 +9,16 @@ export default function Projects() {
     return (
         <div className="flex flex-col bg-black w-screen">
             <div id="projetos" className="flex flex-col py-20 px-0 items-center">
-                <div className="flex flex-col gap-20 w-[1216px]">
+                <div className="flex flex-col gap-20 w-[1216px] mac:w-11/12 mac:items-center">
                     <h1 className="font-chabul text-4xl text-[#BF91F9] font-semibold">Projetos</h1>
-                    <div className="grid grid-cols-2 gap-16">
-
+                    <div className="grid grid-cols-2 gap-16 mac:grid-cols-1">
                         <div className="flex flex-col">
                             <Cards
                             img={Login}
                             title="Login Page"
                             tech="React"
                             />
-                            <div className="flex">
+                            <div className="flex md:flex-col">
                                 <Buttons title="Acessar projeto" link="https://github.com/joaovictoralmeida/Login_Page" />
                                 <SecButton title="Acessar repositório" link="https://github.com/joaovictoralmeida/Login_Page"/>
                             </div>
@@ -31,7 +30,7 @@ export default function Projects() {
                             title="TechBlog"
                             tech="React"
                             />
-                            <div className="flex">
+                            <div className="flex md:flex-col">
                                 <Buttons title="Acessar projeto" link="https://github.com/joaovictoralmeida/TechBlog" />
                                 <SecButton title="Acessar repositório" link="https://github.com/joaovictoralmeida/TechBlog"/>
                             </div>
@@ -43,7 +42,7 @@ export default function Projects() {
                             title="Feliz Natal"
                             tech="React, Javascript"
                             />
-                            <div className="flex">
+                            <div className="flex md:flex-col">
                                 <Buttons title="Acessar projeto" link="https://github.com/joaovictoralmeida/Feliz_Natal" />
                                 <SecButton title="Acessar repositório" link="https://github.com/joaovictoralmeida/Feliz_Natal"/>
                             </div>
@@ -55,7 +54,7 @@ export default function Projects() {
                             title="Nome do Projeto"
                             tech="Tecnologias usadas no projeto"
                             />
-                            <div className="flex">
+                            <div className="flex md:flex-col">
                                 <Buttons title="Acessar projeto" />
                                 <SecButton title="Acessar repositório"/>
                             </div>
