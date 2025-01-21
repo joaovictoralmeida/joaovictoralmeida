@@ -39,6 +39,7 @@ export default function Projects() {
 
                         <div className="flex flex-col">
                             <Cards
+                            img={Natal}
                             title="Feliz Natal"
                             tech="React, Javascript"
                             />
