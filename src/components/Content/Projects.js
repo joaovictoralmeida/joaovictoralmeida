@@ -19,7 +19,7 @@ export default function Projects() {
                             tech="React"
                             />
                             <div className="flex md:flex-col">
-                                <Buttons title="Acessar projeto" link="https://github.com/joaovictoralmeida/Login_Page" />
+                                <Buttons title="Acessar projeto" link="https://login-page-seven-rho.vercel.app" />
                                 <SecButton title="Acessar repositório" link="https://github.com/joaovictoralmeida/Login_Page"/>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ export default function Projects() {
                             tech="React, Javascript"
                             />
                             <div className="flex md:flex-col">
-                                <Buttons title="Acessar projeto" link="https://github.com/joaovictoralmeida/Feliz_Natal" />
+                                <Buttons title="Acessar projeto" link="https://feliz-natal-seven.vercel.app" />
                                 <SecButton title="Acessar repositório" link="https://github.com/joaovictoralmeida/Feliz_Natal"/>
                             </div>
                         </div>

@@ -20,24 +20,25 @@ export default function About() {
                   <div className="flex justify-center items-center bg-[#161616] w-10 h-10 rounded-full border border-[#BF91F9] cursor-pointer">
                     <CiMail className="text-[#BF91F9] w-5 h-5"/>
                   </div>
-
+                  
+                  <a href="https://www.instagram.com/jvsantosal/" target="_blank">
                   <div className="flex justify-center items-center bg-[#161616] w-10 h-10 rounded-full border border-[#BF91F9] cursor-pointer">
-                    <a href="https://www.instagram.com/jvsantosal/" target="_blank">
                       <FiInstagram className="text-[#BF91F9] w-5 h-5"/>
-                    </a>
                   </div>
+                  </a>
 
+                  <a href="https://x.com/joaokkp1" target="_blank">
                   <div className="flex justify-center items-center bg-[#161616] w-10 h-10 rounded-full border border-[#BF91F9] cursor-pointer">
-                    <a href="https://x.com/joaokkp1" target="_blank">
                       <FaXTwitter className="text-[#BF91F9] w-5 h-5"/>
-                    </a>
                   </div>
+                  </a>
 
+                  <a href="https://github.com/joaovictoralmeida" target="_blank">
                   <div className="flex justify-center items-center bg-[#161616] w-10 h-10 rounded-full border border-[#BF91F9] cursor-pointer">
-                    <a href="https://github.com/joaovictoralmeida" target="_blank">
                       <FaGithub className="text-[#BF91F9] w-5 h-5"/>
-                    </a>
                   </div>
+                  </a>
+
                 </div>
 
                 <a href="https://drive.usercontent.google.com/u/0/uc?id=1AxlPRylQqzghIiT8-Ommk1ylmoz6BjPf&export=download">
