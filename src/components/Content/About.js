@@ -22,20 +22,29 @@ export default function About() {
                   </div>
 
                   <div className="flex justify-center items-center bg-[#161616] w-10 h-10 rounded-full border border-[#BF91F9] cursor-pointer">
-                    <FiInstagram className="text-[#BF91F9] w-5 h-5"/>
+                    <a href="https://www.instagram.com/jvsantosal/" target="_blank">
+                      <FiInstagram className="text-[#BF91F9] w-5 h-5"/>
+                    </a>
                   </div>
 
                   <div className="flex justify-center items-center bg-[#161616] w-10 h-10 rounded-full border border-[#BF91F9] cursor-pointer">
-                    <FaXTwitter className="text-[#BF91F9] w-5 h-5"/>
+                    <a href="https://x.com/joaokkp1" target="_blank">
+                      <FaXTwitter className="text-[#BF91F9] w-5 h-5"/>
+                    </a>
                   </div>
 
                   <div className="flex justify-center items-center bg-[#161616] w-10 h-10 rounded-full border border-[#BF91F9] cursor-pointer">
-                    <FaGithub className="text-[#BF91F9] w-5 h-5"/>
+                    <a href="https://github.com/joaovictoralmeida" target="_blank">
+                      <FaGithub className="text-[#BF91F9] w-5 h-5"/>
+                    </a>
                   </div>
                 </div>
-                <Buttons
-                title="Baixar currículo"
-                />
+
+                <a href="https://drive.usercontent.google.com/u/0/uc?id=1AxlPRylQqzghIiT8-Ommk1ylmoz6BjPf&export=download">
+                  <button className="bg-[#BF91F9] text-black font-inter rounded-sm py-2 px-10 my-3 w-60 h-10 md:w-full">
+                    Baixar Currículo
+                  </button>
+                </a>
             </div>
           </div>
         </div>
