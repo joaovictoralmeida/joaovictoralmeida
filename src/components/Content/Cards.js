@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Cards({img, title, tech}) {
     return (
-        <div className="flex flex-col w-[592px] h-[420px] md:w-[327px] md:h-[327px]">
+        <div className="flex flex-col w-[592px] md:w-[327px] md:h-[327px]">
             <div className="border-l-4 border-[#BF91F9] ">
                 <Image src={img} alt="img"/>
             </div>
