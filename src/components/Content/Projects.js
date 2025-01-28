@@ -4,6 +4,7 @@ import SecButton from "./SecButton";
 import Login from "../../../public/images/Login.png"
 import Tech from "../../../public/images/TechBlog.png"
 import Natal from "../../../public/images/Natal.png"
+import Contact from "../../../public/images/Contact.png"
 
 export default function Projects() {
     return (
@@ -51,8 +52,9 @@ export default function Projects() {
 
                         <div className="flex flex-col">
                             <Cards
-                            title="Nome do Projeto"
-                            tech="Tecnologias usadas no projeto"
+                            img={Contact}
+                            title="Contact-Form"
+                            tech="React, Javascript"
                             />
                             <div className="flex md:flex-col">
                                 <Buttons title="Acessar projeto" />
