@@ -57,8 +57,8 @@ export default function Projects() {
                             tech="React, Javascript"
                             />
                             <div className="flex md:flex-col">
-                                <Buttons title="Acessar projeto" />
-                                <SecButton title="Acessar repositório"/>
+                                <Buttons title="Acessar projeto" link="https://contact-form-two-gamma.vercel.app" />
+                                <SecButton title="Acessar repositório" link="https://github.com/joaovictoralmeida/contact-form"/>
                             </div>
                         </div>
 
