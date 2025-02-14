@@ -5,6 +5,7 @@ import Login from "../../../public/images/Login.png"
 import Tech from "../../../public/images/TechBlog.png"
 import Natal from "../../../public/images/Natal.png"
 import Contact from "../../../public/images/Contact.png"
+import Loading from "../../../public/images/loading.png"
 
 export default function Projects() {
     return (
@@ -32,7 +33,7 @@ export default function Projects() {
                             tech="React"
                             />
                             <div className="flex md:flex-col">
-                                <Buttons title="Acessar projeto" link="https://github.com/joaovictoralmeida/TechBlog" />
+                                <Buttons title="Acessar projeto" link="https://tech-blog-psi-flame.vercel.app/" />
                                 <SecButton title="Acessar repositório" link="https://github.com/joaovictoralmeida/TechBlog"/>
                             </div>
                         </div>
@@ -59,6 +60,30 @@ export default function Projects() {
                             <div className="flex md:flex-col">
                                 <Buttons title="Acessar projeto" link="https://contact-form-two-gamma.vercel.app" />
                                 <SecButton title="Acessar repositório" link="https://github.com/joaovictoralmeida/contact-form"/>
+                            </div>
+                        </div>
+
+                        <div className="flex flex-col">
+                            <Cards
+                            img={Loading}
+                            title="Nome do Projeto"
+                            tech="Tecnologias"
+                            />
+                            <div className="flex md:flex-col">
+                                <Buttons title="Acessar projeto" />
+                                <SecButton title="Acessar repositório" />
+                            </div>
+                        </div>
+
+                        <div className="flex flex-col">
+                            <Cards
+                            img={Loading}
+                            title="Nome do Projeto"
+                            tech="Tecnologias"
+                            />
+                            <div className="flex md:flex-col">
+                                <Buttons title="Acessar projeto"  />
+                                <SecButton title="Acessar repositório"/>
                             </div>
                         </div>
 
