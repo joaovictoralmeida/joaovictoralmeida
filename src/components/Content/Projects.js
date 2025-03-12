@@ -6,6 +6,7 @@ import Tech from "../../../public/images/TechBlog.png"
 import Natal from "../../../public/images/Natal.png"
 import Contact from "../../../public/images/Contact.png"
 import Loading from "../../../public/images/loading.png"
+import Mine from "../../../public/images/mine.png"
 
 export default function Projects() {
     return (
@@ -65,13 +66,13 @@ export default function Projects() {
 
                         <div className="flex flex-col">
                             <Cards
-                            img={Loading}
-                            title="Nome do Projeto"
-                            tech="Tecnologias"
+                            img={Mine}
+                            title="Login Mine"
+                            tech="Typescript"
                             />
                             <div className="flex md:flex-col">
-                                <Buttons title="Acessar projeto" />
-                                <SecButton title="Acessar repositório" />
+                                <Buttons title="Acessar projeto" link="https://login-mine.vercel.app"/>
+                                <SecButton title="Acessar repositório" link="https://github.com/joaovictoralmeida/login_mine"/>
                             </div>
                         </div>
 
